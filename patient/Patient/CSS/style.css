@@ -1,0 +1,60 @@
+.signup-content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  input[type="text"],
+  input[type="brandname"],
+  input[type="dosage"],
+  input[type="strength"],
+  input[type="amount"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .signup-content {
+      width: 100%;
+    }
+  }
+  
